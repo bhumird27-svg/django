@@ -4,8 +4,8 @@ function vote() {
   var res = document.getElementById("res");
 
   if (age >= 18) {
-    res.innerHTML = "You are eligible";
+    res.innerHTML = "you are eligible to vote.";
   } else {
-    res.innerHTML = "You are just a child";
+    res.innerHTML = "you are still a child.";
   }
 }
